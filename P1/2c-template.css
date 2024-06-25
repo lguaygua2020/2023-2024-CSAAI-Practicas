@@ -13,11 +13,11 @@ min-height: 500px;
 }
 
 .izquierda {
-width: 25%;
+width: 30%;
 }
 
 .derecha {
-width: 75%;
+width: 60%;
 }
 
 /* Clear floats despues de las columnas para eliminar la superposición */
@@ -27,13 +27,6 @@ display: table;
 clear: both;
 }
 
-#c1 {
-    background-color:#aaa;
-}
-
-#c2 {
-    background-color:#bbb;
-}
 
 /* estilos para imágenes https://www.w3schools.com/css/css3_images.asp */
 /* posicionamiento de imágenes https://www.w3schools.com/css/css_positioning.asp */
@@ -63,3 +56,39 @@ img {
 }
 
 /* Más sobre diseño web responsive https://www.w3schools.com/css/css_rwd_intro.asp */
+
+.seccion {
+  margin-bottom: 20px; /* Espacio entre secciones */
+  padding: 10px;
+  border: 1px solid #ccc; /* Borde alrededor de cada sección */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+body {
+  background-image: url('iPhone\ Wallpapers\ 8\ Mario\ Kart!.jpeg');
+  background-size: cover; /* Esto ajusta la imagen al tamaño del cuerpo */
+  background-position: center; /* Esto centra la imagen */
+  /* Puedes ajustar otros estilos según tus necesidades */
+}
+
+.titulo {
+  text-align: center; /* Esto centra el texto horizontalmente */
+  margin-top: 40px;
+  text-decoration: underline
+}
+.centro {
+  text-align: center; /* Esto centra el texto horizontalmente */
+  margin-top: 50px;
+}
+.fondotxt {
+  font-size: 16px;
+  background-color: rgba(255, 30, 0, 0.5); /* Color de fondo para resaltar el texto */
+  padding: 10px; /* Espacio alrededor del texto */
+  /* Puedes ajustar otros estilos según tus necesidades */
+}
+.fondotxt1 {
+  font-size: 16px;
+  background-color: rgba(23, 99, 16, 0.5); /* Color de fondo para resaltar el texto */
+  padding: 10px; /* Espacio alrededor del texto */
+  /* Puedes ajustar otros estilos según tus necesidades */
+}
